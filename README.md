@@ -7,10 +7,10 @@ This system enhances customer convenience by enabling online browsing, ordering,
 
 ## ✨ Features
 
-  ### 🌱 Plant Management
-  - Maintain detailed records of ornamental plant varieties
-  - Update stock quantities and availability
-  - Include descriptions, images, and prices for each plant
+### 🌱 Plant Management
+   - Maintain detailed records of ornamental plant varieties
+   - Update stock quantities and availability
+   - Include descriptions, images, and prices for each plant
   
   ### 🛒 Ordering System
   - Browse available plants with category filtering
