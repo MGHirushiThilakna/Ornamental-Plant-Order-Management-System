@@ -89,7 +89,10 @@ Alternatively, download the ZIP file and extract it.
       │   └── images/         # Plant images
       ├── includes/           # Configuration and helper files
       ├── pages/              # User-facing pages
+      ├── customer/           # Customer panel
       ├── admin/              # Admin panel
+      ├── store_keeper/       # Store keeper panel
+      ├── delivery_driver/    # Delivery driver panel
       ├── payment/            # Payment gateway integration files
       ├── database/           # SQL dump file
       ├── config.php          # Database configuration
