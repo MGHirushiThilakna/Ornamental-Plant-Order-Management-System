@@ -1,4 +1,4 @@
-# 🪴 Ornamental-Plant-Order-Management-System
+#  Ornamental-Plant-Order-Management-System
 
 📌 Project Description
 
