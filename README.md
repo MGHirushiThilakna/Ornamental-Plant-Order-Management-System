@@ -55,20 +55,58 @@ Alternatively, download the ZIP file and extract it.
    - Open phpMyAdmin
    - Create a new database named opoms_db
    - Import opoms_db.sql from the /database folder
+     
 ### 3️⃣ Configure the Application
       $host = "localhost";           // Server host
       $username = "root";            // Database username
       $password = "";                // Database password
       $database = opoms_db"; // Database name
+      
+### 4️⃣ Deploy to Web Server
+   - Copy the project folder to your web server's root directory
+     For XAMPP: C:\xampp\htdocs\ornamental-plant-order-management
+
+### 5️⃣ Start Services
+   - Launch XAMPP Control Panel
+   - Start Apache and MySQL services
+     
+### 6️⃣ Access the Application
+       http://localhost/ornamental-plant-order-management
+
+## 🛠️ Technologies Used
+  - Backend: PHP
+  - Frontend: HTML, CSS, Bootstrap, JavaScript
+  - Database: MySQL
+  - Tools: XAMPP, phpMyAdmin, PhpMailer
+
+## 📂 Project Structure
+
+      ornamental-plant-order-management/
+      ├── assets/             # Static resources
+      │   ├── css/            # Stylesheets
+      │   ├── js/             # JavaScript files
+      │   └── images/         # Plant images
+      ├── includes/           # Configuration and helper files
+      ├── pages/              # User-facing pages
+      ├── admin/              # Admin panel
+      ├── payment/            # Payment gateway integration files
+      ├── database/           # SQL dump file
+      ├── config.php          # Database configuration
+      └── index.php           # Entry point
+
+## Future Enhancements
+  - AI-based plant recommendation system
+  - Multi-language support
+  - Advanced sales analytics dashboard
+  - Customer reviews and ratings for plants
+    
+## 👥 Contributing
+   1.  Fork the project
+   2.  Create your feature branch
    
-
-
-
-
-
-
-
-
-
-
-
+           git checkout -b feature/AmazingFeature
+   3. Commit your changes
+      
+          git push origin feature/AmazingFeature
+   4. Push to the branch
+   5. Open a Pull Request
