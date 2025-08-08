@@ -44,3 +44,31 @@ This system enhances customer convenience by enabling online browsing, ordering,
   - Fully functional across desktop, tablet, and mobile devices
 
 ## ⚙️ Installation Guide
+   ### **Prerequisites**
+  - XAMPP or any local server environment (Apache, MySQL)
+  - Git (optional, for cloning the repository)
+#### 1️⃣ Clone the Repository
+    -git clone https://github.com/yourusername/ornamental-plant-order-management.git
+Alternatively, download the ZIP file and extract it.
+
+#### 2️⃣ Set Up the Database
+   - Open phpMyAdmin
+   - Create a new database named opoms_db
+   - Import opoms_db.sql from the /database folder
+### 3️⃣ Configure the Application
+      $host = "localhost";           // Server host
+      $username = "root";            // Database username
+      $password = "";                // Database password
+      $database = opoms_db"; // Database name
+   
+
+
+
+
+
+
+
+
+
+
+
