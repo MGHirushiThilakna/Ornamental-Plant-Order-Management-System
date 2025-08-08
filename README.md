@@ -8,14 +8,14 @@ This system enhances customer convenience by enabling online browsing, ordering,
 ## ✨ Features
 
   ### 🌱 Plant Management
-    - Maintain detailed records of ornamental plant varieties
-    - Update stock quantities and availability
-    - Include descriptions, images, and prices for each plant
+  - Maintain detailed records of ornamental plant varieties
+  - Update stock quantities and availability
+  - Include descriptions, images, and prices for each plant
   
   ### 🛒 Ordering System
-    - Browse available plants with category filtering
-    - Add items to a shopping cart
-    - Secure checkout process for order placement
+  - Browse available plants with category filtering
+  - Add items to a shopping cart
+   - Secure checkout process for order placement
 
   ### 💳 Online Payment Integration
 - Secure payment flow for customer orders
