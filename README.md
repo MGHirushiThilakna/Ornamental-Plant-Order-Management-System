@@ -103,7 +103,10 @@ Alternatively, download the ZIP file and extract it.
   - Multi-language support
   - Advanced sales analytics dashboard
   - Customer reviews and ratings for plants
-    
+
+## 📝 License
+  - This project is licensed under the MIT License – see the LICENSE.md file for details.
+
 ## 👥 Contributing
    1.  Fork the project
    2.  Create your feature branch
