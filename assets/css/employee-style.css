@@ -1,0 +1,318 @@
+body {
+  background-color: #ffffff;
+}
+.myMainContainer,
+.my-container {
+  margin-left: 191px;
+  margin-top: 100px;
+  width: auto;
+  background-color: #f4faf8;
+  height: 500px;
+}
+.table-card {
+  margin-left: 50px;
+}
+.mycardbody {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.myMainCard {
+  margin-left: 50px;
+  margin-top: 0px;
+  width: 700px;
+}
+.mycardheader {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background-color: #daf4dd;
+  color: #3d8361;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+label {
+  color: #3d8361;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.myFormFloating {
+  border-color: none;
+}
+
+.myFormGroup .myChooseFile:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+.myFormGroup .myChooseFile .is-invalid {
+  border: 2px solid red;
+}
+.myFormFloating .myselect {
+  border: 0px;
+  border: 1px solid #dcdde1;
+}
+.myFormFloating .myselect:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+
+.myFormFloating .myinputText:focus {
+  box-shadow: none;
+  border: 1px solid #273c75;
+}
+
+.myFormFloating .myinputTextArea {
+  height: 100px;
+}
+.myFormFloating .myinputTextArea:focus {
+  box-shadow: none;
+  border: 1px solid#3D8361;
+}
+
+.myBtn {
+  background-color: #b4e197;
+  color: #3d8361;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 17px;
+  border: 2px solid #b4e197;
+  border-radius: 50px;
+}
+.myBtn:hover {
+  background-color: white;
+  color: #3d8361;
+  font-weight: bold;
+  border: 2px solid #b4e197;
+}
+#strNumberError,
+#strJobError,
+#strPasswordError,
+#strEmailError,
+#strLNameError,
+#strFNameError,
+#strImgError,
+#strNameError,
+#strStatusError,
+#strVnumError {
+  font-size: 12px;
+  color: #c23616;
+  margin-left: 10px;
+}
+.serchcard {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  width: 700px;
+  border: none;
+  background-color: #f4faf8;
+}
+.search-box .search-input {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-right: none;
+}
+.search-box .search-input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.search-box .select-input {
+  background-color: #b4e197;
+  color: white;
+  width: 50%;
+}
+
+.search-box .select-input:hover {
+  background-color: #636e72;
+  color: white;
+  border: 2px solid black;
+  border-left: none;
+}
+.search-box .search-btn {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-left: none;
+  background-color: #b4e197;
+  color: white;
+}
+.search-box .search-btn:hover {
+  background-color: #636e72;
+  color: white;
+  border: 2px solid black;
+  border-left: none;
+}
+
+table {
+  border: 2px solid #3d8361;
+  text-align: center;
+  width: auto;
+}
+table thead {
+  font-family: "Times New Roman", Times, sans-serif;
+  background-color: #daf4dd;
+  color: #3d8361;
+}
+table .viewbtn{
+    background-color: #daf4dd;
+    color: #3d8361;
+    width: 50%;
+    font-size: 14px; 
+    border: 2px solid #3d8361;
+}
+table .viewbtn:hover{
+  background-color: white;
+  color: #3d8361; 
+  border: 2px solid #3d8361;   
+}
+.modal-cardheader {
+  color: #3d8361;
+}
+
+/*            edit modal     -------------------------------     */
+/*---------------------------------------------------------------- Second Floating Panel --------------------------------------*/
+
+.popup1 {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-top: 15px;
+  left: 50%;
+  text-align: center;
+  padding: 0 10px 10px;
+  color: #333;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  z-index: 6;
+}
+
+.open-popup1 {
+  top: 30%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup1 img {
+  height: 100px;
+  width: 100px;
+  margin-top: 0%;
+}
+
+.popup1 h2 {
+  color: rgb(117, 117, 117);
+  font-size: 39px;
+  font-weight: 500;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin: 30px 5px 10px;
+}
+
+.popup1 button {
+  width: 170px;
+  margin-top: 40px;
+  padding: 10px 0;
+  background: #b4e197;
+  color: #3d8361;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup1 .save button {
+  float: right;
+  margin: 2px 5px 5px 2px;
+}
+
+.popup1 .save .delete button {
+  float: left;
+  width: 150px;
+  margin: 2px 5px 5px 2px;
+}
+
+.popup1 input,
+textarea,
+select,
+input[type="time"] {
+  background: var(--color-white);
+  color: var(--color-dark);
+}
+
+.popup1 ::placeholder {
+  color: var(--color-dark);
+}
+
+.popup1 .save .error {
+  background: var(--color-danger);
+}
+
+.popup1 p {
+  margin-top: 3%;
+  font-size: 18px;
+}
+
+.popup1 table {
+  border:none;
+  width: 100%;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 2px;
+}
+ 
+.popup1 table tbody td {
+  height: 2.8rem;
+  border-bottom: 1px solid var(--color-light);
+  color: var(--color-dark-variant);
+  font-size: 16px;
+}
+
+.popup1 table tbody tr:last-child td {
+  border: none;
+}
+
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+  transition: transform 0.4s, top 0.4s;
+}
+
+.modal-content {
+  background-color: #f6f6f9;
+  margin: 2% auto; /* 15% from the top and centered */
+  padding: 20px;
+  padding-bottom: 3%;
+  border: 1px solid #888;
+  width: 50%; /* 80% width */
+}
+.modal-heading {
+  position:relative;
+  text-align: center;
+  color: rgb(117, 117, 117);
+  font-size: 39px;
+  font-weight: 500;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin: 0px 5px 10px;
+}
+
+.modal-content .close {
+  position: absolute;
+  color: #b31717;
+  top: 1px; /* Adjust vertical position as needed */
+  right: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+

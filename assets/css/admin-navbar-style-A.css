@@ -1,0 +1,413 @@
+/*-----------------------*/
+body {
+  z-index: 2;
+}
+.header {
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(229, 224, 224);
+}
+.left_section {
+  display: flex;
+  padding-top: 5px;
+  height: 60px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.brand_name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 5px;
+  width: 230px;
+  font-family: Roboto, Arial;
+  font-size: 19px;
+  color: rgb(69, 165, 8);
+}
+.middle_section {
+  flex: 2;
+  margin-left: 150px;
+  margin-right: 140px;
+  max-width: 400px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.righr_section {
+  width: 250px;
+  display: flex;
+
+  margin-right: 20px;
+  align-items: center;
+  justify-content: end;
+  flex-shrink: 0;
+}
+.brand_logo {
+  margin-top: 0;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.youtube_logo {
+  height: 23px;
+}
+.search-bar {
+  height: 36px;
+  flex: 2;
+  border-width: 1px;
+  padding-left: 20px;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(221, 217, 217);
+  border-radius: 50px;
+  box-shadow: inset 1px 1px 1px rgb(0, 0, 0, 0.05);
+}
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+}
+.search_icon_btn,
+.voice_search_btn {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.search_icon_btn {
+  height: 36px;
+  width: 60px;
+  background-color: rgb(170, 228, 134);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(218, 216, 216);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.search_icon_btn .tooltip,
+.voice_search_btn .voice_search_hide_text {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  padding-right: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -20px;
+  left: 50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search_icon_btn:hover .tooltip,
+.voice_search_btn:hover .voice_search_hide_text {
+  opacity: 1;
+}
+.search_icon {
+  height: 25px;
+}
+
+.channel_symbol_btn {
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+
+.profile_pic {
+  height: 35px;
+  border-radius: 20px;
+}
+.notification_icon_container {
+  position: relative;
+  font-family: Roboto, Arial;
+}
+.notification_counts {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(170, 228, 134);
+  color: rgb(118, 108, 108);
+  border: none;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 50px;
+}
+.notification_icon_btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+.notification_icon {
+  height: 30px;
+  border-radius: 20px;
+}
+.top_border {
+  height: 8px;
+  background-color: rgb(170, 228, 134);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.channel_symbol_btn {
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+
+.channel_symbol {
+  height: 35px;
+  border-radius: 20px;
+}
+/* dropdown menu styles */
+.dropdown {
+  margin-left: 10px;
+}
+.dropdown-menu {
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: none;
+  z-index: 1;
+  top: 50px;
+  right: 6px;
+  min-width: 160px;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #dfeadc;
+}
+
+.show {
+  display: block;
+}
+
+/*---------------------below is sidebar section----------- */
+.admin_panel_lbl {
+  position: fixed;
+  background-color: rgb(170, 228, 134);
+  margin-top: 42px;
+
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  color: rgb(53, 62, 69);
+  height: 38px;
+  width: 191px;
+}
+.side_bar {
+  background-color: white;
+  color: black;
+  position: fixed;
+  left: 1px;
+  bottom: 0;
+  top: 100px;
+  width: 190px;
+  height: 420px;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+.sidebar_link {
+  height: 40px;
+  width: 190px;
+  font-family: Roboto, Arial;
+  margin-bottom: 2px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  z-index: 0;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+}
+.sidebar_link img {
+  height: 20px;
+  object-position: left;
+  margin-right: 5px;
+}
+
+.sidebar_link:hover,
+.sidebar_cell_text:hover {
+  background-color: rgb(17, 66, 50);
+  transition: 0.2s ease-out;
+  border-radius: 20px;
+  color: #fff !important;
+}
+
+.nav_side_bar {
+  width: 90px;
+  background-color: white;
+  border: none;
+  padding-left: 0;
+  text-align: center;
+}
+.sidebar_icon_div {
+  padding-left: 5px;
+
+  width: 25px;
+}
+.sidebar_cell_text {
+  display: inline-block;
+  color: darkolivegreen;
+  font-weight: bold;
+  width: auto;
+  font-family: Nunito, Arial;
+  font-size: 13px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* -----------------------*/
+.myviewProContai {
+  width: 100%;
+  height: 100%;
+  margin-left: 192px;
+}
+
+.myNavbar .myNavbarBand .logo {
+  width: 45px;
+  height: 45px;
+}
+
+.myNavbar .myNavbarNav {
+  width: 100%;
+}
+
+.myNavbar .myNavbarNav .mynavitem {
+  margin: auto;
+}
+
+.myNavbar .myNavbarNav .mynavitem:hover {
+  border-radius: 10px;
+  background-color: #f1f2f6;
+  transition: 0.2s ease-in-out;
+}
+.myNavbar .myNavbarNav .mynavitem .mynavLink {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.myNavbar .myNavbarNav .mynavitem .active {
+  border-radius: 10px;
+  background-color: #f1f2f6;
+  color: #353b48;
+}
+.myNavbar .myNavbarNav .mynavitem .mynavLink:hover {
+  color: #353b48;
+}
+
+/*Sub NavBar*/
+.myNavbarSub {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(78, 148, 79);
+  padding-top: 0px;
+  margin-top: 41px;
+  margin-left: 191px;
+  z-index: 1;
+  height: 40px;
+}
+.mynavPMLinkSub {
+  width: 500px;
+  font-size: 12px;
+  font-weight: 500;
+  color: ghostwhite;
+  padding-top: 1px;
+  margin-left: 100px;
+}
+.nav-link.mynavPMLinkSub.active {
+  border-bottom: 3px solid #ced6e0;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.mysubContainer {
+  padding-left: 40px;
+  margin-left: 0px;
+}
+.myNavbarSub .myNavbarNavSub {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub {
+  width: 100%;
+  height: 30px;
+  margin: 0px;
+  color: ghostwhite;
+  text-align: center;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub .active {
+  border-bottom: 3px solid #ced6e0;
+  border-radius: 10px;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub:hover {
+  background-color: rgb(17, 66, 50);
+  transition: 0.2s ease-out;
+  border-radius: 20px;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub .mynavLinkSub {
+  font-size: 12px;
+  font-weight: 500;
+  color: ghostwhite;
+  padding-top: 5px;
+}
+
+/*     ---------------------- page title                 */
+.page-title {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: #daf4dd;
+  color: #3d8361;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}

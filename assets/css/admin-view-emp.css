@@ -1,0 +1,124 @@
+.modal-cardheader {
+  color: #201b1c;
+  font-weight: bold;
+  text-align: center;
+}
+table {
+  border: 3px solid #3d8361;
+  text-align: center;
+}
+table thead {
+  color: #3d8361;
+  background-color: rgb(218, 244, 221);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3d8361;
+}
+.my-card-body {
+  background-color: #f4faf8;
+}
+.td {
+  background-color: white;
+}
+.label {
+  color: #3d8361;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.viewbtn {
+  background-color: rgb(170, 228, 134);
+  color: #3d8361;
+  width: 40%;
+  font-size: 17px;
+  border: 2px solid #3d8361;
+}
+.viewbtn:hover {
+  background-color: white;
+  color: #3d8361;
+  border: 2px solid #3d8361;
+}
+
+.my-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.my-modal-footer button {
+  margin: 0 5px;
+}
+
+.mycardheader {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #3d8361;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.mysubcardheader {
+  font-size: 17px;
+  text-align: center;
+  background-color: #3d8361;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.search-box .search-input {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-right: none;
+}
+.search-box .search-input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.search-box .search-btn {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-left: none;
+  background-color: rgb(170, 228, 134);
+  color: white;
+}
+.search-box .search-btn:hover {
+  background-color: #636e72;
+  color: white;
+  border: 2px solid black;
+  border-left: none;
+}
+.myFormFloating .myselect {
+  border: 0px;
+  border: 1px solid #dcdde1;
+}
+.myFormFloating .myselect:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+
+.myBtn {
+  width: 25%;
+  font-size: 17px;
+}
+.myBtn:hover {
+  font-weight: bold;
+}
+.my-modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmBtn {
+  background-color: #20bf6b;
+  color: white;
+}
+.confirmBtn:hover {
+  background-color: white;
+  color: #20bf6b;
+  border: 2px solid #20bf6b;
+}
+.cancelBtn {
+  background-color: #eb4d4b;
+  color: white;
+}

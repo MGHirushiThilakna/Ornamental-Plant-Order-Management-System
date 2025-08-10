@@ -1,0 +1,91 @@
+.my-modal-header {
+  font-size: 22px;
+  font-weight: bold;
+}
+.my-modal-body .my-modal-slider {
+  box-shadow: 2.5px 2.5px 2.5px 2.5px #57606f;
+  border-radius: 10px;
+}
+
+.my-modal-body .my-modal-slider-img {
+  max-height: 390px;
+  max-width: 340px;
+  filter: brightness(1);
+}
+
+.my-modal-body .slider-icon {
+  filter: invert(1);
+}
+.my-modal-body .product-details {
+  margin-bottom: 20px;
+}
+
+.my-modal-body .product-details .col-topics {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.my-modal-body .product-details .col-data {
+  font-size: 16px;
+}
+
+/*update*/
+.img-box {
+  height: 100px;
+  width: 300px;
+  margin: auto;
+}
+.img-box .img-file {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.imagerow {
+  border: 2px solid red;
+}
+
+/*image update*/
+
+.myFormGroup .myChooseFile:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+.myFormGroup .myChooseFile .is-invalid {
+  border: 2px solid red;
+}
+.myBtn {
+  background-color: #b4e197;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 17px;
+}
+.myBtn:hover {
+  background-color: white;
+  color: #487eb0;
+  font-weight: bold;
+  border: 2px solid #3d8361;
+}
+label {
+  color: #487eb0;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.divider {
+  border-top: 2px solid #3d8361;
+}
+#strMainError,
+#strSubError,
+#strBrandError,
+#strSupError,
+#strPNameError,
+#strPDescError,
+#strPUnitError,
+#strPSellError {
+  font-size: 12px;
+  color: #c23616;
+  margin-left: 10px;
+}

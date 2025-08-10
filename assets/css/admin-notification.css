@@ -1,0 +1,98 @@
+
+.my-container{
+    max-width:100%;
+    margin-right: 0;
+}
+.insights-02 {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.col-lg-6 {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center; /* Center the search bar horizontally */
+}
+
+.search-box {
+    margin-left: 300px;
+    display: flex;
+    align-items: center; /* Align input and button vertically */
+    width: 100%;         /* Ensure the form takes full available width */
+    max-width: 500px;     /* Set a maximum width for the search bar */
+}
+
+.box-3 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.notifi-img{
+    height: 140px;
+    padding-bottom: 10px;
+}
+
+.notifi-img img {
+    max-width: 100%;
+    height: 140px;
+    border-radius: 8px;
+}
+
+h3 {
+    padding-top: 5px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.success {
+    color: green;
+}
+
+.danger {
+    color: red;
+}
+
+.edit-btn-03 {
+    
+    margin-top: 10px;
+}
+
+
+
+.pop_btn:hover {
+    background-color: #58a399;
+}
+.pop_btn,
+.delete_btn {
+    background-color: #58a399;
+    color: white;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40%;
+}
+
+.delete_btn {
+    background-color: #dc3545; /* Red for delete button */
+}
+
+.pop_btn:hover {
+    background-color: #2a6861;
+}
+
+.delete_btn:hover {
+    background-color: #db969d;
+}

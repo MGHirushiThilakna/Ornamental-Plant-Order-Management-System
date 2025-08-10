@@ -1,0 +1,269 @@
+.card {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  width: 1400px;
+}
+
+.myviewProMainCont {
+  margin-top: 80px;
+  margin-left: 198px;
+  background-color: #eef7f0;
+  height: 6000px;
+  width: 2000px;
+  padding-top: 10px;
+}
+serchcard .main-card-body {
+  margin-top: 50px;
+}
+.myviewProdCard {
+  margin-left: 50px;
+  width: 2000px;
+}
+
+table {
+  border: 2px solid #273c75;
+  text-align: center;
+  table-layout: fixed;
+  width: 2000px;
+  font-size: 15px;
+}
+table thead {
+  font-family: "Times New Roman", Times, sans-serif;
+  background-color: #daf4dd;
+  color: #3d8361;
+}
+.P-img {
+  width: 100px;
+  height: 100px;
+}
+tbody td {
+  border-bottom: 2px solid #3d8361;
+}
+.main-tbl th:nth-child(12),
+.main-tbl td:nth-child(12) {
+  width: 110px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(11),
+.main-tbl td:nth-child(11) {
+  width: 90px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(10),
+.main-tbl td:nth-child(10) {
+  width: 60px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(9),
+.main-tbl td:nth-child(9) {
+  width: 80px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(8),
+.main-tbl td:nth-child(8) {
+  width: 100px; /* Adjust the width as needed */
+}
+
+.main-tbl th:nth-child(7),
+.main-tbl td:nth-child(7) {
+  width: 100px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(6),
+.main-tbl td:nth-child(6) {
+  width: 100px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(5),
+.main-tbl td:nth-child(5) {
+  width: 150px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(4),
+.main-tbl td:nth-child(4) {
+  width: 90px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(3),
+.main-tbl td:nth-child(3) {
+  width: 80px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(2),
+.main-tbl td:nth-child(2) {
+  width: 100px; /* Adjust the width as needed */
+}
+.main-tbl th:nth-child(1),
+.main-tbl td:nth-child(1) {
+  width: 80px; /* Adjust the width as needed */
+}
+
+.sub-tbl th:nth-child(3),
+.sub-tbl td:nth-child(3) {
+  width: 100px; /* Adjust the width as needed */
+}
+.sub-tbl th:nth-child(2),
+.sub-tbl td:nth-child(2) {
+  width: 100px; /* Adjust the width as needed */
+}
+.sub-tbl th:nth-child(1),
+.sub-tbl td:nth-child(1) {
+  width: 100px; /* Adjust the width as needed */
+}
+
+body {
+  background-color: #ffffff;
+}
+.myMainContainer,
+.my-container {
+  margin-left: 191px;
+  margin-top: 100px;
+  width: auto;
+  background-color: #f4faf8;
+  height: 500px;
+}
+.table-card {
+  margin-left: 50px;
+}
+.mycardbody {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.myMainCard {
+  margin-left: 50px;
+  margin-top: 0px;
+  width: 700px;
+}
+.mycardheader {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background-color: #daf4dd;
+  color: #3d8361;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+label {
+  color: #3d8361;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.myFormFloating {
+  border-color: none;
+}
+
+.myFormGroup .myChooseFile:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+.myFormGroup .myChooseFile .is-invalid {
+  border: 2px solid red;
+}
+.myFormFloating .myselect {
+  border: 0px;
+  border: 1px solid #dcdde1;
+}
+.myFormFloating .myselect:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+
+.myFormFloating .myinputText:focus {
+  box-shadow: none;
+  border: 1px solid #273c75;
+}
+
+.myFormFloating .myinputTextArea {
+  height: 100px;
+}
+.myFormFloating .myinputTextArea:focus {
+  box-shadow: none;
+  border: 1px solid#3D8361;
+}
+
+.myBtn {
+  background-color: #b4e197;
+  color: #3d8361;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 17px;
+  border: 2px solid #b4e197;
+  border-radius: 50px;
+}
+.myBtn:hover {
+  background-color: white;
+  color: #3d8361;
+  font-weight: bold;
+  border: 2px solid #b4e197;
+}
+#strNumberError,
+#strJobError,
+#strPasswordError,
+#strEmailError,
+#strLNameError,
+#strFNameError,
+#strImgError,
+#strStatusError,
+#strVnumError {
+  font-size: 12px;
+  color: #c23616;
+  margin-left: 10px;
+}
+.serchcard {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  width: 400px;
+  border: none;
+}
+.search-box .search-input {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-right: none;
+}
+.search-box .search-input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.search-box .select-input {
+  background-color: #b4e197;
+  color: white;
+  width: 50%;
+}
+
+.search-box .select-input:hover {
+  background-color: #636e72;
+  color: white;
+  border: 2px solid black;
+  border-left: none;
+}
+.search-box .search-btn {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-left: none;
+  background-color: #b4e197;
+  color: white;
+}
+.search-box .search-btn:hover {
+  background-color: #636e72;
+  color: white;
+  border: 2px solid black;
+  border-left: none;
+}
+
+table {
+  border: 2px solid #3d8361;
+  text-align: center;
+  width: auto;
+}
+table thead {
+  font-family: "Times New Roman", Times, sans-serif;
+  background-color: #daf4dd;
+  color: #3d8361;
+}
+.modal-cardheader {
+  color: #3d8361;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+/*            edit modal     -------------------------------     */

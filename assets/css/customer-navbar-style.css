@@ -1,0 +1,108 @@
+.myNavbar{
+    background-color: #686de0;
+}
+
+.myNavbar .myNavbarBand{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.myNavbar .myNavbarBand .logo{
+    width:45px;
+    height:45px;
+}
+
+.myNavbar .myNavbarNav{
+    width:100%;
+}
+
+.myNavbar .myNavbarNav .mynavitem{
+    margin: auto;
+}
+
+.myNavbar .myNavbarNav .mynavitem:hover{
+    border-radius: 10px;
+    background-color: #f1f2f6;
+    transition: 0.2s ease-in-out;
+}
+.myNavbar .myNavbarNav .mynavitem .mynavLink{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.myNavbar .myNavbarNav .mynavitem .active{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f1f2f6;
+    color: #353b48 ;
+}
+.myNavbar .myNavbarNav .mynavitem .mynavLink:hover{
+    color: #353b48;
+}
+.navbar .myNavbarBand{
+    font-size: 25px;
+    font-family: oblique;
+}
+.navbar .myNavbarBand .post{
+    font-size: 25px;
+    font-family: Lucida Handwriting;
+} 
+
+.myNavbar .btn-box{
+    display:flex;
+    width: 30%;   
+}
+.myNavbar .btn-box .my-btn{
+    margin: auto;
+    font-weight: 600;
+}
+.myNavbar .btn-box .my-btn:hover{
+    border : 4px solid #f1f2f6;
+    color : #f1f2f6;
+}
+.myNavbar .btn-box .my-btn-signout:hover{
+    background-color: #ff6b6b;
+}
+
+.cart-product-card .cart-product-header{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #b9bcf1;
+}
+.cart-product-card .cart-product-header span{
+    font-weight: 600;
+}
+.cart-product-card .cart-product-header .btn-removeproduct{
+    margin-left: auto;
+    order: 2;
+    height: 2rem;
+    border: none;
+}
+.cart-product-card .cart-product-header .btn-removeproduct:hover{
+    color: red;
+}
+.cart-product-card .cart-product-body .cart-img{
+    width:60px;
+    height: 70px;
+}
+.cart-product-card .cart-product-body .col-img{
+    border: 2px solid grey;
+}
+.cart-product-card .cart-product-body p{
+    margin-bottom: 0px;
+}
+
+.cart-footer{
+    background-color: #b9bcf1;
+}
+
+/*responsive*/
+
+@media screen and (max-width:990px) {
+    .myNavbar .btn-box{
+        width: 100%;        
+    }
+}

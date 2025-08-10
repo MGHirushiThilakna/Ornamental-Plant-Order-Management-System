@@ -1,0 +1,115 @@
+.my-container {
+  margin-left: 190px;
+  background-color: #f4faf8;
+}
+.my-imgBox {
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+}
+.my-row {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.my-col {
+  margin-top: 25px;
+}
+.myInfoField {
+  margin-top: 50px;
+}
+.page-title {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: #daf4dd;
+  color: #3d8361;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+.mycardheader {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: #daf4dd;
+  color: #3d8361;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+label {
+  color: #3d8361;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.myFormFloating {
+  border-color: none;
+}
+
+.myFormGroup .myChooseFile:focus {
+  box-shadow: none;
+  border: 1px solid#3d8361;
+}
+.myFormGroup .myChooseFile .is-invalid {
+  border: 2px solid red;
+}
+.myFormFloating .myselect {
+  border: 0px;
+  border: 1px solid #dcdde1;
+}
+.myFormFloating .myselect:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+
+.myFormFloating .myinputText:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+
+.myFormFloating .myinputTextArea {
+  height: 100px;
+}
+.myFormFloating .myinputTextArea:focus {
+  box-shadow: none;
+  border: 1px solid #3d8361;
+}
+
+.myBtn {
+  background-color: #aae486;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 17px;
+}
+.myBtn:hover {
+  background-color: white;
+  color: #3d8361;
+  font-weight: bold;
+  border: 2px solid #3d8361;
+}
+#strLnameError,
+#strFnameError,
+#strAddressError,
+#strContactError,
+#strCurrentPassError,
+#strNewPassError,
+#strRepeatNewPassError {
+  font-size: 12px;
+  color: #c23616;
+  margin-left: 10px;
+}
+
+.myeye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.myeye span {
+  transform: scale(1.5);
+  cursor: pointer;
+}

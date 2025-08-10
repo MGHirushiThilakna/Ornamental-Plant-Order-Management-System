@@ -1,0 +1,198 @@
+.main-container {
+  height: 1000px;
+  border-radius: 0px;
+  margin: auto;
+  background-color: #f4faf8;
+  margin-left: 200px;
+  margin-top: 40px;
+  z-index: 0;
+}
+
+.displayName {
+  margin-top: 60px;
+}
+.myStaffDash {
+  border: none;
+}
+.myindexContainer {
+  background-color: #f4faf8;
+  margin-top: 40px;
+  margin-left: 179px;
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: start;
+  font-weight: bolder;
+  color: #2d5843;
+  font-weight: 650;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+.dash_img_box {
+  display: flex;
+  width: auto;
+  background-color: #58a399;
+  height: 300px;
+  align-items: center;
+  justify-content: start;
+}
+.dash_img {
+  width: 46%;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 45px;
+  margin-bottom: 8px;
+}
+
+.main-container .main-body .main-row .main-col.sub-card {
+  margin: auto;
+}
+.main-container .main-body .main-row {
+  margin-bottom: 2%;
+}
+
+.my-card-header {
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(218, 244, 221);
+  color: #3d8361;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.sub-card {
+  margin-top: 40px;
+  height: 100%;
+  border: 2px solid #3d8361;
+}
+
+.my-card-content-box {
+  border: 2px solid black;
+}
+.my-card-content-box .my-content-box-body {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 3px;
+  text-align: center;
+  background-color: #3d8361;
+}
+
+.my-card-content-box .my-content-box-body .my-content-box-title {
+  width: 100%;
+  background-color: #3d8361;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 17px;
+  display: block;
+  margin: auto;
+}
+.my-card-content-box .my-content-box-body .my-content-box-text {
+  border: 2px solid black;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 95%;
+  margin-bottom: 2.5%;
+  display: block;
+  margin: auto;
+  background-color: white;
+  font-size: 35px;
+}
+/*       dashboard     cards              */
+.dashboard {
+  display: flex;
+  display: grid;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-top: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.order-status-card,
+.info-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-status-card h2,
+.info-card h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.order-status-card,
+.info-card {
+  box-shadow: 0px 3px 4px 0px #2d8c59be;
+}
+
+.order-status-card .count,
+.info-card .count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+.placed {
+  background-color: #abec8d;
+}
+.pending {
+  background-color: #f9f7c9;
+}
+.ready {
+  background-color: #8adab2;
+}
+.complete {
+  background-color: #c6ebc5;
+}
+.customers {
+  background-color: #a5dd9b;
+}
+.staff {
+  background-color: #aaf3a4;
+}
+
+.staus_icon {
+  width: 37px;
+  height: 37px;
+  margin-left: 5px;
+}
+.order-status-card:hover,
+.info-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 3px 15px 0px #414445;
+  transition: box-shadow 0.4s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dash_img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dash_img {
+    width: 30%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 100%) {
+  .dash_img {
+    width: 110%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 100%) {
+  .dash_img {
+    width: calc(100vw - 20px);
+    height: auto;
+  }
+}

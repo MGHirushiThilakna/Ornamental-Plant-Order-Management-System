@@ -1,0 +1,81 @@
+.modal-content {
+  font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, system-ui,
+    sans-serif;
+}
+.my-modal-header {
+  font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, system-ui,
+    sans-serif;
+  color: #153726;
+  background-color: #8bbc6d;
+}
+
+.My-regForm-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  letter-spacing: 1px;
+}
+
+.modal-body,
+.img-row,
+.img-col {
+  padding: 0;
+  margin: 0px;
+}
+.img-col {
+  background-color: #25744c;
+}
+.reg-img {
+  object-fit: fill;
+  filter: brightness(60%) blur(1.5px);
+  opacity: 50%;
+}
+.myinputText:focus {
+  box-shadow: none;
+  border-bottom: 4px solid#3d8361;
+  transition: 0.1s ease-in-out;
+}
+.myinputText::placeholder {
+  color: #87898b;
+  font-weight: 500;
+}
+.myinputText {
+  border: 0;
+  border-bottom: 2px solid #3d8361;
+  transition: 0.1s ease-in-out;
+}
+.my-reg-btn {
+  background-color: #b4e197;
+  color: #3d8361;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  transition: 0.3s ease-in-out;
+}
+.my-reg-btn:hover {
+  background-color: #fff;
+  color: #3d8361;
+  border: 2px solid #3d8361;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
+#strLnameError,
+#strFnameError,
+#strPasswordError,
+#strEmailError,
+#strRePasswordError,
+#strOTPError {
+  font-size: 18px;
+  color: #c23516;
+  margin-left: 10px;
+}

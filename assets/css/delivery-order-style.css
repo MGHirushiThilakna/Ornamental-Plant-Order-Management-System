@@ -1,0 +1,83 @@
+/*side Bar*/
+
+body {
+  overflow-x: hidden;
+}
+.myNavbarSub {
+  margin-top: 42px;
+  margin-left: 191px;
+  z-index: 1;
+}
+.myNavContainer {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.myOrdercardHeader {
+  background-color: white;
+  font-weight: bold;
+  color: #3d8361;
+  text-align: center;
+}
+.my-card-body {
+  background-color: #f4faf8;
+  margin-left: 50px;
+}
+.mycardBody {
+  margin-left: 300px;
+}
+.my-card-content {
+  background-color: #f4faf8;
+  height: 500px;
+}
+
+.mynewOrderTbl-header {
+  border-bottom: 2px solid #3d8361;
+  color: #3d8361;
+}
+
+.my-accordion-item {
+  background-color: white;
+}
+.my-accordion-item .my-accordion-body {
+  padding: 0px 0px 0px 0px;
+}
+.my-accordion-item .my-accordion-header .my-accordion-button:focus {
+  box-shadow: none;
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.my-accordion-item .my-accordion-header .my-accordion-button:hover {
+  background-color: #6d7fcc;
+  color: #fff;
+}
+
+.card-header {
+  background-color: white;
+  color: #3d8361;
+  font-weight: bold;
+}
+
+.mywrapper .my-card-content {
+  width: 100%;
+}
+table {
+  border: 2px solid #3d8361;
+  text-align: center;
+}
+table thead {
+  font-family: "Times New Roman", Times, sans-serif;
+  background-color: rgb(218, 244, 221);
+  color: white;
+}
+.viewbtn {
+  background-color: #487eb0;
+  color: white;
+  width: 50%;
+  font-size: 17px;
+  border: 2px solid #487eb0;
+}
+.viewbtn:hover {
+  background-color: white;
+  color: #487eb0;
+  border: 2px solid #487eb0;
+}

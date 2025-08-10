@@ -1,0 +1,131 @@
+.dashboard-hero {
+    background: linear-gradient(135deg, #fff, #f8f9fa);
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+}
+    .hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+     .mydash {
+      margin-left:80px;
+      height:100%;
+      width:1500px;
+      display: flex;  /* Make container flex */
+      flex-direction: row; /* Force horizontal layout */
+    }
+
+    .mainDash {
+      margin-top: 100px;
+      margin-left: 250px;
+      width:2000px; /* Take full width of parent */
+    }
+
+    main {
+      width: 100%; /* Take full width */
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .overview-container {
+      padding: 20px;
+      margin-left: 0; /* Remove left margin */
+      margin-top: 0; /* Reduce top margin */
+      width: 1000px; /* Take full width */
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      flex: 1; /* Allow cards to grow equally */
+    }
+
+    .grid {
+      display: flex; /* Change to flex instead of grid */
+      flex-direction: row; /* Force horizontal layout */
+      flex-wrap: nowrap; /* Prevent wrapping */
+      gap: 20px;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 30px;
+      text-align:center;
+      
+    }
+
+    .profile img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* Keep your existing status and badge styles */
+    .status {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .status-badge {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 20px;
+      color: #fff;
+      font-size: 12px;
+    }
+
+    .badge-new { background: #f34312; }
+    .badge-confirmed { background: #27ae9a; }
+    .badge-ready { background: #2980b9; }
+    .badge-ontheway { background: #8e44ad; }
+
+    .badge-completed { background:#27ae60;}
+    /* Add media query for responsiveness */
+    @media (max-width: 1024px) {
+      .grid {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+      }
+      
+      .card {
+        flex: 1 1 calc(50% - 20px); /* Two cards per row on medium screens */
+      }
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex: 1 1 100%; /* One card per row on small screens */
+      }
+    }

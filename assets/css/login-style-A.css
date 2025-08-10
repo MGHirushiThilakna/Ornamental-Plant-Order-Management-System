@@ -1,0 +1,114 @@
+.my-container {
+  margin: auto;
+}
+.my-img-container {
+  position: relative;
+  width: 1000px;
+  height: 100%; /* Ensure the container has a defined height */
+}
+
+.my-bg-img {
+  position: fixed; /* Set the position to fixed */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 255, 0.3);
+  width: 100vw; /* Use 100vw to cover the full viewport width */
+  height: 100vh; /* Use 100vh to cover the full viewport height */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
+  z-index: -1; /* Set a lower z-index to keep the image behind the content */
+}
+
+.my-login-card {
+  margin: 80px auto;
+  background-color: rgba(37, 116, 76, 0.88);
+  width: 500px;
+  padding-left: 35px;
+}
+.row {
+  width: 10px auto;
+}
+
+.my-col {
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 2.5px 2.5px #3d8361;
+  background-color: white;
+}
+
+.my-col .title {
+  color: rgb(78, 148, 79);
+  padding: 5px;
+}
+
+.my-col .my-form {
+  border: none;
+}
+.my-col .my-form:hover {
+  box-shadow: 2.5px 2.5px 2.5px 2.5px #3d8361;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.my-col .my-form .my-input {
+  border: none;
+  border-bottom: 2px solid #3d8361;
+  height: 65px;
+  padding-bottom: 0px;
+}
+.my-col .my-form .my-input:hover {
+  box-shadow: 2.5px 2.5px 2.5px 2.5px #3d8361;
+  transition: 0.3s ease-in-out;
+}
+label {
+  font-weight: 400;
+}
+
+.mybtn {
+  width: 100%;
+  background-color: #b4e197;
+  color: #3d8361;
+  width: 80%;
+  margin-left: 32px;
+
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 17px;
+  border: 2px solid #b4e197;
+}
+.mybtn:hover {
+  width: 80%;
+  background-color: white;
+  color: #3d8361;
+  border: 2px solid #3d8361;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.my-card-body .my-img {
+  border-radius: 50px;
+}
+
+.bt-divs {
+  text-align: center;
+  font-weight: 500;
+}
+#strUserError,
+#strpasswordError {
+  font-size: 18px;
+  color: #c23616;
+  margin-left: 10px;
+}
+.bt-divs a {
+  text-decoration: none;
+  color: #327d59;
+  color: #9c9e9d;
+  font-weight: 400;
+}
+.bt-divs a:hover {
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .my-login-card {
+    box-shadow: none;
+  }
+}

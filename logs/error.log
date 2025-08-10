@@ -1,0 +1,388 @@
+[2025-01-10 03:03:05] POST request received
+[2025-01-10 03:03:05] POST data: Array
+(
+    [items] => [{"itemId":"ITM1","colorId":"CLR1","quantity":1,"price":230},{"itemId":"ITM3","colorId":"CLR5","quantity":4,"price":72},{"itemId":"ITM5","colorId":null,"quantity":5,"price":200},{"itemId":"ITM8","colorId":"CLR8","quantity":1,"price":0}]
+    [address] => 863/E, Siriwardana Road, Kadawatha
+    [phone] => 0763424156
+)
+
+[2025-01-10 03:03:05] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM1
+            [colorId] => CLR1
+            [quantity] => 1
+            [price] => 230
+        )
+
+    [1] => Array
+        (
+            [itemId] => ITM3
+            [colorId] => CLR5
+            [quantity] => 4
+            [price] => 72
+        )
+
+    [2] => Array
+        (
+            [itemId] => ITM5
+            [colorId] => 
+            [quantity] => 5
+            [price] => 200
+        )
+
+    [3] => Array
+        (
+            [itemId] => ITM8
+            [colorId] => CLR8
+            [quantity] => 1
+            [price] => 0
+        )
+
+)
+
+[2025-01-10 03:03:05] Generated order ID: ODR-20250110-67807fd9221aa
+[2025-01-10 03:03:05] Processing item: Array
+(
+    [itemId] => ITM1
+    [colorId] => CLR1
+    [quantity] => 1
+    [price] => 230
+)
+
+[2025-01-10 03:03:05] Processing item: Array
+(
+    [itemId] => ITM3
+    [colorId] => CLR5
+    [quantity] => 4
+    [price] => 72
+)
+
+[2025-01-10 03:03:05] Processing item: Array
+(
+    [itemId] => ITM5
+    [colorId] => 
+    [quantity] => 5
+    [price] => 200
+)
+
+[2025-01-10 03:03:05] Processing item: Array
+(
+    [itemId] => ITM8
+    [colorId] => CLR8
+    [quantity] => 1
+    [price] => 0
+)
+
+[2025-01-10 03:03:05] Order processed successfully: ODR-20250110-67807fd9221aa
+[2025-01-10 18:57:52] POST request received
+[2025-01-10 18:57:52] POST data: Array
+(
+    [items] => [{"itemId":"ITM1","name":"Rose","quantity":1,"price":230,"colorId":"CLR1"},{"itemId":"ITM6","name":"Rubber plant","quantity":3,"price":700,"colorId":"N/A"},{"itemId":"ITM12","name":"Crossandra","quantity":1,"price":700,"colorId":"CLR10"}]
+    [address] => 863/E, Siriwardana Road, Kadawatha
+    [phone] => 0763424156
+    [deliveryCharge] => 400
+    [subtotal] => 3030
+    [grandTotal] => 3430
+)
+
+[2025-01-10 18:57:52] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM1
+            [name] => Rose
+            [quantity] => 1
+            [price] => 230
+            [colorId] => CLR1
+        )
+
+    [1] => Array
+        (
+            [itemId] => ITM6
+            [name] => Rubber plant
+            [quantity] => 3
+            [price] => 700
+            [colorId] => N/A
+        )
+
+    [2] => Array
+        (
+            [itemId] => ITM12
+            [name] => Crossandra
+            [quantity] => 1
+            [price] => 700
+            [colorId] => CLR10
+        )
+
+)
+
+[2025-01-10 18:57:52] Generated order ID: ODR-20250110-67815fa00d318
+[2025-01-10 18:57:52] Processing item: Array
+(
+    [itemId] => ITM1
+    [name] => Rose
+    [quantity] => 1
+    [price] => 230
+    [colorId] => CLR1
+)
+
+[2025-01-10 18:57:52] Processing item: Array
+(
+    [itemId] => ITM6
+    [name] => Rubber plant
+    [quantity] => 3
+    [price] => 700
+    [colorId] => N/A
+)
+
+[2025-01-10 18:57:52] Processing item: Array
+(
+    [itemId] => ITM12
+    [name] => Crossandra
+    [quantity] => 1
+    [price] => 700
+    [colorId] => CLR10
+)
+
+[2025-01-10 18:57:52] Order processed successfully: ODR-20250110-67815fa00d318
+[2025-01-11 08:31:24] POST request received
+[2025-01-11 08:31:24] POST data: Array
+(
+    [items] => [{"itemId":"ITM5","name":"Kadupul","quantity":2,"price":400,"colorId":"N/A"}]
+    [address] => 863/E, Siriwardana Road, Kadawatha
+    [phone] => 0763424156
+    [deliveryCharge] => 400
+    [subtotal] => 800
+    [grandTotal] => 1200
+)
+
+[2025-01-11 08:31:24] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM5
+            [name] => Kadupul
+            [quantity] => 2
+            [price] => 400
+            [colorId] => N/A
+        )
+
+)
+
+[2025-01-11 08:31:24] Generated order ID: ODR-20250111-67821e4c5e02e
+[2025-01-11 08:31:24] Processing item: Array
+(
+    [itemId] => ITM5
+    [name] => Kadupul
+    [quantity] => 2
+    [price] => 400
+    [colorId] => N/A
+)
+
+[2025-01-11 08:31:24] Order processed successfully: ODR-20250111-67821e4c5e02e
+[2025-01-11 08:38:13] POST request received
+[2025-01-11 08:38:13] POST data: Array
+(
+    [items] => [{"itemId":"ITM11","name":"Dahlia - Landaff","quantity":2,"price":500,"colorId":"N/A"},{"itemId":"ITM17","name":" Cattleya","quantity":1,"price":570,"colorId":"N/A"}]
+    [address] => 867/D, Siriwardana Road, Ragama
+    [phone] => 0763424156
+    [deliveryCharge] => 400
+    [subtotal] => 1570
+    [grandTotal] => 1970
+)
+
+[2025-01-11 08:38:13] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM11
+            [name] => Dahlia - Landaff
+            [quantity] => 2
+            [price] => 500
+            [colorId] => N/A
+        )
+
+    [1] => Array
+        (
+            [itemId] => ITM17
+            [name] =>  Cattleya
+            [quantity] => 1
+            [price] => 570
+            [colorId] => N/A
+        )
+
+)
+
+[2025-01-11 08:38:13] Generated order ID: ODR-20250111-67821fe596cc2
+[2025-01-11 08:38:13] Processing item: Array
+(
+    [itemId] => ITM11
+    [name] => Dahlia - Landaff
+    [quantity] => 2
+    [price] => 500
+    [colorId] => N/A
+)
+
+[2025-01-11 08:38:13] Processing item: Array
+(
+    [itemId] => ITM17
+    [name] =>  Cattleya
+    [quantity] => 1
+    [price] => 570
+    [colorId] => N/A
+)
+
+[2025-01-11 08:38:13] Order processed successfully: ODR-20250111-67821fe596cc2
+[2025-01-11 17:28:31] POST request received
+[2025-01-11 17:28:31] POST data: Array
+(
+    [items] => [{"itemId":"ITM16","name":"Rose","quantity":1,"price":700,"colorId":"N/A"}]
+    [address] => 867/D, Siriwardana Road, Ragama
+    [phone] => 0763424156
+    [deliveryCharge] => 400
+    [subtotal] => 700
+    [grandTotal] => 1100
+)
+
+[2025-01-11 17:28:31] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM16
+            [name] => Rose
+            [quantity] => 1
+            [price] => 700
+            [colorId] => N/A
+        )
+
+)
+
+[2025-01-11 17:28:31] Generated order ID: ODR-20250111-67829c2fbafb4
+[2025-01-11 17:28:31] Processing item: Array
+(
+    [itemId] => ITM16
+    [name] => Rose
+    [quantity] => 1
+    [price] => 700
+    [colorId] => N/A
+)
+
+[2025-01-11 17:28:31] Order processed successfully: ODR-20250111-67829c2fbafb4
+[2025-01-12 13:42:10] POST request received
+[2025-01-12 13:42:10] POST data: Array
+(
+    [items] => [{"itemId":"ITM3","name":"Rose","quantity":1,"price":500,"colorId":"CLR3"}]
+    [address] => 867/D, Siriwardana Road, Ragama
+    [phone] => 0763424156
+    [deliveryCharge] => 400
+    [subtotal] => 500
+    [grandTotal] => 900
+)
+
+[2025-01-12 13:42:10] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM3
+            [name] => Rose
+            [quantity] => 1
+            [price] => 500
+            [colorId] => CLR3
+        )
+
+)
+
+[2025-01-12 13:42:10] Generated order ID: ODR-20250112-6783b8a272d9e
+[2025-01-12 13:42:10] Processing item: Array
+(
+    [itemId] => ITM3
+    [name] => Rose
+    [quantity] => 1
+    [price] => 500
+    [colorId] => CLR3
+)
+
+[2025-01-12 13:42:10] Order processed successfully: ODR-20250112-6783b8a272d9e
+[2025-01-12 13:44:50] POST request received
+[2025-01-12 13:44:50] POST data: Array
+(
+    [items] => [{"itemId":"ITM17","name":"Rose","quantity":1,"price":570,"colorId":"N/A"}]
+    [address] => 867/D, Siriwardana Road, Ragama
+    [phone] => 0753425678
+    [deliveryCharge] => 400
+    [subtotal] => 570
+    [grandTotal] => 970
+)
+
+[2025-01-12 13:44:50] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM17
+            [name] => Rose
+            [quantity] => 1
+            [price] => 570
+            [colorId] => N/A
+        )
+
+)
+
+[2025-01-12 13:44:50] Generated order ID: ODR-20250112-6783b9425ec74
+[2025-01-12 13:44:50] Processing item: Array
+(
+    [itemId] => ITM17
+    [name] => Rose
+    [quantity] => 1
+    [price] => 570
+    [colorId] => N/A
+)
+
+[2025-01-12 13:44:50] Order processed successfully: ODR-20250112-6783b9425ec74
+[2025-01-15 16:25:30] POST request received
+[2025-01-15 16:25:30] POST data: Array
+(
+    [items] => [{"itemId":"ITM8","name":"Kandy Dance","quantity":1,"price":780,"colorId":"CLR9"},{"itemId":"ITM17","name":" Cattleya","quantity":1,"price":570,"colorId":"N/A"}]
+    [address] => 867/D, Siriwardana Road, Ragama
+    [phone] => 0753425678
+    [deliveryCharge] => 400
+    [subtotal] => 1350
+    [grandTotal] => 1750
+)
+
+[2025-01-15 16:25:30] Decoded items: Array
+(
+    [0] => Array
+        (
+            [itemId] => ITM8
+            [name] => Kandy Dance
+            [quantity] => 1
+            [price] => 780
+            [colorId] => CLR9
+        )
+
+    [1] => Array
+        (
+            [itemId] => ITM17
+            [name] =>  Cattleya
+            [quantity] => 1
+            [price] => 570
+            [colorId] => N/A
+        )
+
+)
+
+[2025-01-15 16:25:30] Generated order ID: ODR-20250115-6787d36a98049
+[2025-01-15 16:25:30] Processing item: Array
+(
+    [itemId] => ITM8
+    [name] => Kandy Dance
+    [quantity] => 1
+    [price] => 780
+    [colorId] => CLR9
+)
+
+[2025-01-15 16:25:30] Error processing order: Column count doesn't match value count at row 1
+[2025-01-15 16:25:30] Stack trace: #0 C:\xampp\htdocs\backup_final project\opoms\opoms\process-cod-order.php(143): mysqli_prepare(Object(mysqli), 'INSERT INTO ord...')
+#1 {main}

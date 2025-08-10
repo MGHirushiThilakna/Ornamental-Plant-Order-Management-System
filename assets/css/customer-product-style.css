@@ -1,0 +1,172 @@
+.mycontainer .search-box{
+    width: 100%;
+}
+
+.mycontainer .search-box .search-input{
+    border-radius: 0px;
+    border: 1px solid black;
+    border-right: none;
+}
+.mycontainer .search-box .search-input:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+
+.mycontainer .search-box .search-btn{
+    border-radius: 0px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: white;
+    color: #636e72;
+}
+.mycontainer .search-box .search-btn:hover{
+    background-color: #636e72;
+    color: white;
+    border: 2px solid black;
+    border-left: none;
+}
+
+/*side Bar*/
+
+body {
+    overflow-x: hidden;
+  }
+  #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #f1f1f1;
+    height: 100vh;
+    overflow-y: auto;
+    transition: all 0.3s;
+  }
+  #sidebar .sidebar-header {
+    padding: 20px;
+    background-color: #6d7fcc;
+    color: #fff;
+  }
+  #sidebar ul.components {
+    padding: 10px 0;
+  }
+  #sidebar ul li {
+    font-size: 16px;
+    list-style: none;
+  }
+  #sidebar ul li a {
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+  }
+  #sidebar ul li a:hover {
+    color: #fff;
+    background-color: #6d7fcc;
+  }
+  .my-accordion-item{
+    background-color: white;
+  }
+  .my-accordion-item .my-accordion-body{
+    padding: 0px 0px 0px 0px;
+  }
+  .my-accordion-item .my-accordion-header .my-accordion-button:focus{
+      box-shadow: none;
+      background-color: white;
+      border-color: rgba(0,0,0,.125);
+  }
+  .my-accordion-item .my-accordion-header .my-accordion-button:hover{
+    background-color: #6d7fcc;
+    color : #fff
+}
+  
+  @media (max-width: 375px) {
+    #sidebar {
+      margin-left: -250px;
+    }
+    #sidebar.active {
+      min-width: 90%;
+      max-width: 90%;
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 450px) {
+    #sidebar {
+      margin-left: -250px;
+    }
+    #sidebar.active {
+      min-width: 90%;
+      max-width: 90%;
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 991.98px) {
+    #sidebar {
+      margin-left: -250px;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+  }
+/*-------------------------------*/
+.list-item {
+    display: block;
+  }
+  
+  .list-item.hide {
+    display: none;
+}
+  /*-----------------------------*/
+ 
+  .mywrapper .my-card-content{
+    width: 100%;
+  }
+
+/*------------------------------------------------------------------------------------------*/
+.my-card-content .my-card-body .row .items{
+    width: 18rem;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #ecf0f1;
+    border:1px solid #34495e;
+}
+
+.my-card-content .my-card-body .row .items:hover{
+    box-shadow: 10px 10px 10px 10px #636e72;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.my-card-content .my-card-body .row .items .card-img{
+    margin-top: 5px;
+    max-height: 262px;
+    max-width: 262px;
+    
+}
+.my-card-content .my-card-body .row .items .card-img:hover{
+    border-radius: 25px;
+    border:1px solid #57606f;
+    transition: 0.2s ease-in-out;
+}
+
+.my-card-content .my-card-body .row .items .card-btn{
+    width:100%;
+    background-color: #57606f;
+    border:#57606f;
+}
+.my-card-content .my-card-body .row .items .card-btn:hover{
+    width:100%;
+    background-color: #ecf0f1;
+    color: #57606f;
+    border:2px solid #57606f;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.my-card-content .my-card-body  .row .items .item-stockIn{
+    color: #27ae60;
+    font-weight: bold;
+
+}
+.my-card-content .my-card-body  .row .items .item-stockout{
+    color: #e74c3c;
+    font-weight: bold;
+
+}

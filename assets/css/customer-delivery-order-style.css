@@ -1,0 +1,100 @@
+.order-row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.order-card{
+    width: 20rem;
+    background:#46544d ;
+    background-color: #d1d1f1;
+    margin-bottom: 25px;
+}
+.order-card .order-card-header{
+    background-color: #706fd3;
+    color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+.order-card .order-card-footer{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.myChooseFile:focus{
+    box-shadow: none;
+    border : 1px solid #273c75;    
+}
+.uploadbtn{
+    background-color: #487eb0;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.uploadbtn:hover{
+    background-color: white;
+    color: #487eb0;
+    font-weight: bold;
+    border: 2px solid #487eb0;
+    
+}
+
+.Pending{
+    background-color: #ff7675;
+    text-align: center;
+}
+
+.Pending span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Confirmed{
+    background-color: #55efc4;
+    text-align: center;
+}
+
+.Confirmed span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Ready{
+    background-color: #fd79a8;
+    text-align: center;
+}
+
+.Ready span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Dispatched{
+    background-color: #f7b731;
+    text-align: center;
+}
+
+.Dispatched span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Completed{
+    background-color: #00b894;
+    text-align: center;
+}
+
+.Completed span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
