@@ -44,7 +44,7 @@ This system enhances customer convenience by enabling online browsing, ordering,
   - Fully functional across desktop, tablet, and mobile devices
     
 
-## 🛠️ Installation Guide
+## ⚙️ Installation Guide
    ### **Prerequisites**
   - XAMPP or any local server environment (Apache, MySQL)
   - Git (optional, for cloning the repository)
@@ -74,7 +74,7 @@ Alternatively, download the ZIP file and extract it.
 ### 6. Access the Application
        http://localhost/ornamental-plant-order-management
 
-## 🛠️ Technologies Used
+##  🛠️ Technologies Used
   - Backend: PHP
   - Frontend: HTML, CSS, Bootstrap, JavaScript
   - Database: MySQL
