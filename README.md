@@ -44,7 +44,7 @@ This system enhances customer convenience by enabling online browsing, ordering,
   - Fully functional across desktop, tablet, and mobile devices
     
 
-## - Installation Guide
+## 🛠️ Installation Guide
    ### **Prerequisites**
   - XAMPP or any local server environment (Apache, MySQL)
   - Git (optional, for cloning the repository)
