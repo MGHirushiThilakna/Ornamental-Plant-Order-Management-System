@@ -104,6 +104,8 @@ Alternatively, download the ZIP file and extract it.
 
 ![Checkout Overview](https://github.com/MGHirushiThilakna/Ornamental-Plant-Order-Management-System/blob/main/Screenshots%20of%20the%20system/check%20out.png)
 
+![Dashboard Overview](https://github.com/MGHirushiThilakna/Ornamental-Plant-Order-Management-System/blob/main/Screenshots%20of%20the%20system/Customer%20dash%20board.png)
+
 ## Future Enhancements
   - AI-based plant recommendation system
   - Multi-language support
