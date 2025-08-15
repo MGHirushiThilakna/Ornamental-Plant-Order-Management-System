@@ -97,6 +97,9 @@ Alternatively, download the ZIP file and extract it.
       ├── database/           # SQL dump file
       ├── config.php          # Database configuration
       └── index.php           # Entry point
+## System Preview
+![Shop Overview]( https://github.com/MGHirushiThilakna/Sales-Analytics-Dashboard-Power-BI-/blob/main/Sceenshots/Sales%20Analytics%20Dashboard.PNG)
+
 
 ## Future Enhancements
   - AI-based plant recommendation system
