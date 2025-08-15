@@ -98,7 +98,7 @@ Alternatively, download the ZIP file and extract it.
       ├── config.php          # Database configuration
       └── index.php           # Entry point
 ## System Preview
-![Shop Overview]( https://github.com/MGHirushiThilakna/Sales-Analytics-Dashboard-Power-BI-/blob/main/Sceenshots/Sales%20Analytics%20Dashboard.PNG)
+![Shop Overview](https://github.com/MGHirushiThilakna/Ornamental-Plant-Order-Management-System/blob/main/Screenshots%20of%20the%20system/plant%20catalog.png)
 
 
 ## Future Enhancements
