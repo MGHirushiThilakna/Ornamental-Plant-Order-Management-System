@@ -7,40 +7,40 @@ This system enhances customer convenience by enabling online browsing, ordering,
 
 ## ✨ Features
 
-### 🌱 Plant Management
+### - Plant Management
    - Maintain detailed records of ornamental plant varieties
    - Update stock quantities and availability
    - Include descriptions, images, and prices for each plant
   
-### 🛒 Ordering System
+### - Ordering System
    - Browse available plants with category filtering
    - Add items to a shopping cart
    - Secure checkout process for order placement
 
-### 💳 Online Payment Integration
+### - Online Payment Integration
   - Secure payment flow for customer orders
   - Automatic payment confirmation updates in order records
 
-### 🚚 Delivery Tracking
+### - Delivery Tracking
   - Assign and track delivery orders
   - Monitor order status from placement to completion
   - Generate delivery reports
 
-### 👤 Customer Management
+### - Customer Management
   - User registration and secure login
   - Manage customer profiles and order history
   - Provide personalized order recommendations
 
-### 📊 Admin Dashboard
+### - Admin Dashboard
   - Manage plants, orders, and customers from a single interface
   - Generate sales and order reports
   - Monitor stock levels and restock alerts
 
-###  🔍 Search & Filter
+###  - Search & Filter
   - Search plants by name or category
   - Filter by price range or plant type
 
-### 📱 Responsive Design
+### - Responsive Design
   - Fully functional across desktop, tablet, and mobile devices
     
 
@@ -74,7 +74,7 @@ Alternatively, download the ZIP file and extract it.
 ### 6. Access the Application
        http://localhost/ornamental-plant-order-management
 
-## 🛠️ Technologies Used
+##  🛠️ Technologies Used
   - Backend: PHP
   - Frontend: HTML, CSS, Bootstrap, JavaScript
   - Database: MySQL
@@ -97,6 +97,9 @@ Alternatively, download the ZIP file and extract it.
       ├── database/           # SQL dump file
       ├── config.php          # Database configuration
       └── index.php           # Entry point
+## System Preview
+![Shop Overview]( https://github.com/MGHirushiThilakna/Sales-Analytics-Dashboard-Power-BI-/blob/main/Sceenshots/Sales%20Analytics%20Dashboard.PNG)
+
 
 ## Future Enhancements
   - AI-based plant recommendation system
